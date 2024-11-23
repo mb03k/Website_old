@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Grün ist die Hoffnung",
+        "path": "../Assets/books/gruen_ist_die_hoffnung.jpg",
+        "rating": "",
+        "description": "",
+        "bg_opacity": ".4"
+    },
+    {
+        "name": "Morbus",
+        "path": "../Assets/books/morbus.jpg",
+        "rating": "",
+        "description": "",
+        "bg_opacity": ".5"
+    },
+    {
+        "name": "Verbrechen",
+        "path": "../Assets/books/verbrechen.jpg",
+        "rating": "",
+        "description": "",
+        "bg_opacity": ".4"
+    },
+    {
+        "name": "Clean Code",
+        "path": "../Assets/books/clean_code.jpg",
+        "rating": "",
+        "description": "",
+        "bg_opacity": ".5"
+    },
+    {
+        "name": "What Every Body Is Saying",
+        "path": "../Assets/books/what_every_body_is_saying.jpg",
+        "rating": "",
+        "description": "",
+        "bg_opacity": ".4"
+    },
+    {
+        "name": "Surrounded By Idiots",
+        "path": "../Assets/books/surrounded_by_idiots.jpg",
+        "rating": "",
+        "description": "",
+        "bg_opacity": ".5"
+    }
+]

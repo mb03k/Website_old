@@ -1,0 +1,9 @@
+[
+    {
+        "name": "The Apprentice - The Trump Story",
+        "path": "../Assets/movies/the_apprentice.jpg",
+        "rating": "8/10",
+        "description": "Ziemlich cooler Film",
+        "bg_opacity": ".3"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Eternal Sunshine of the spotless mind",
+        "path": "../Assets/movies/eternal_sunshine_of_the_spotless_mind.jpg",
+        "rating": "9.5/10",
+        "description": "Ziemlich cooler Film",
+        "bg_opacity": ".3"
+    },
+    {
+        "name": "Before Sunrise",
+        "path": "../Assets/movies/before_sunrise.jpg",
+        "rating": "8/10",
+        "description": "Ziemlich cooler Film",
+        "bg_opacity": ".5"
+    },
+    {
+        "name": "Before Sunset",
+        "path": "../Assets/movies/before_sunset.jpg",
+        "rating": "8/10",
+        "description": "Definitiv empfehlenswert blablabla",
+        "bg_opacity": ".3"
+    },
+    {
+        "name": "Before Midnight",
+        "path": "../Assets/movies/before_midnight.jpg",
+        "rating": "9/10",
+        "description": "Ziemlich cooler Film",
+        "bg_opacity": ".5"
+    }
+]
