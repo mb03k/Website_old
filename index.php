@@ -1,6 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-<?php include 'html/head.php'; ?>
+<head>
+    <html lang="en">
+    <title>Start</title>
+    <?php include 'html/head.php'; ?>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Londrina+Sketch&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
 
 <body class="gradient">
     <div>
@@ -142,7 +150,7 @@
                 </p>
             </div>
         </div>
-        
+
         <?php include 'html/footer.php'; ?>
     </div>
 
@@ -150,4 +158,5 @@
     <script type="application/x-javascript" src="Script/ButtonListeners/home.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
+
 </html>

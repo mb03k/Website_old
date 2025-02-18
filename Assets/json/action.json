@@ -7,6 +7,13 @@
         "bg_opacity": ".6"
     },
     {
+        "name": "Matrix 2",
+        "path": "../Assets/movies/matrix_2.jpg",
+        "rating": "8/10",
+        "description": "Schöne Fortsetzung von Matrix 1. Eventuell kommt es mir nur so vor, aber hier wurde ein größerer Wert auf die 'Kampfszenen' gelegt. Wer diesen Stil mag, sollte Matrix 2 definitiv anschauen",
+        "bg_opacity": ".5"
+    },
+    {
         "name": "The Revenant",
         "path": "../Assets/movies/the_revenant.jpg",
         "rating": "8/10",

@@ -7,14 +7,14 @@
         "bg_opacity": ".1"
     },
     {
-        "name": "Harold & Kumar - White Castle",
+        "name": "Harold & Kumar - Escape from Guantanamo",
         "path": "../Assets/movies/harold_kumar_escape_from_guantanamo.jpg",
         "rating": "9/10",
         "description": "Definitiv empfehlenswert blablabla",
         "bg_opacity": ".2"
     },
     {
-        "name": "Harold & Kumar - White Castle",
+        "name": "Harold & Kumar - Christmas",
         "path": "../Assets/movies/harold_kumar_christmas.jpg",
         "rating": "6.5/10",
         "description": "Ziemlich cooler Film",
@@ -88,6 +88,13 @@
         "path": "../Assets/movies/der_diktator.jpg",
         "rating": "7/10",
         "description": "Ziemlich cooler Film",
+        "bg_opacity": "1.0"
+    },
+    {
+        "name": "Wolf of Wall Street",
+        "path": "../Assets/movies/wolf_of_wall_street.jpg",
+        "rating": "8/10",
+        "description": "Ein klassiker; muss man gesehen haben. Leonardo DiCaprio ist einfach ein genialer Schauspieler. Ist definitv kein Comedy-Film (für mich), aber im Internet steht Comedy/Thriller, deswegen ist er hier gelandet",
         "bg_opacity": "1.0"
     }
     

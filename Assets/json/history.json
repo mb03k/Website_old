@@ -5,5 +5,19 @@
         "rating": "8/10",
         "description": "Ziemlich cooler Film",
         "bg_opacity": ".3"
+    },
+    {
+        "name": "Ballon",
+        "path": "../Assets/movies/ballon.jpg",
+        "rating": "9/10",
+        "description": "Ich finde den Film wirklich genial. Super interessant sich in die Zeit von Damals hineinzuversetzen",
+        "bg_opacity": ".5"
+    },
+    {
+        "name": "Magnus - der Mozart des Schachs",
+        "path": "../Assets/movies/magnus_der_mozart_des_schachs.jpg",
+        "rating": "9/10",
+        "description": "Ich muss ihn fast schon automatisch lieben, weil ich selbst so gern Schach spiele. Wirklich interessant gemacht, wie man ihn mit unzähligen Aufnahmen kennenlernt. Für mich unvorstellbar, auf welchem galaktischen Niveau er Schach beherrscht",
+        "bg_opacity": ".5"
     }
 ]

@@ -19,5 +19,26 @@
         "rating": "7/10",
         "description": "Definitiv empfehlenswert blablabla",
         "bg_opacity": ".6"
+    },
+    {
+	"name": "Der Fall Collini",
+	"path": "../Assets/movies/der_fall_collini.jpg",
+	"rating": "8/10",
+	"description": "Sehr interessant dargestellt. Man fühlt mit. Schön produziert und anzusehen, der einzige Makel ist das Ende - für mich etwas dramatisch 'dargestellt'",
+	"bg_opacity": ".4"
+    },
+    {
+	"name": "Dominion",
+	"path": "../Assets/movies/dominion.jpg",
+	"rating": "",
+	"description": "Keine Worte. Muss man einfach gesehen haben",
+	"bg_opacity": ".6"
+    },
+    {
+	"name": "The Whale",
+	"path": "../Assets/movies/the_whale.jpg",
+	"rating": "7/10",
+	"description": "--Kein Thriller aber ich habe noch kein Genre dafür-- ich war während des Films darauf getrimmt nur darauf abzuwarten dass er sich ändert und anfängt super viel Sport zu machen. Aber darum geht es nicht. Ich fand es gut gemacht wie man sich während des Films immer mehr in ihn hereinversetzt und dieses Leid spürt",
+	"bg_opacity": ".6"
     }
 ]

@@ -16,17 +16,5 @@
         ist wirklich schwer. 
         Trotzdem habe ich seit langen den Traum einer eigenen Website. Und jetzt sitze ich hier.
         Schreibe diesen Text. <b>Auf meiner EIGENEN Website</b>. Cool, oder nicht?
-        <br><br>
-        Aber naja. Hier mal ein kleiner Überblick in die Sachen die man dafür machen kann, um so ein Ergebnis zu erhalten:<br>
-        A) selbstverständlich das Wichtigste hierfür mieten. Die Domain. Das geht leicht über die
-        verschiedensten Anbieter <br>
-        B) einen Server mieten. Das ist auch sehr leicht. Für mich läuft die Domain und der Server
-        über die <a href="https://www.strato.de/" target="_blank">Strato AG</a> und kostet 
-        <a href="https://www.weristmatthes.de/faq" target="_blank"> siehe hier</a> *schleichwerbung für mein FAQ*<br>
-        C) hier fängt aber der eigentliche Schmerz an. Ich habe mir den günstigsten Server gemietet.
-        Einen "VPS Linux VC1-1" - einen virtuellen Server. Sich überhaupt erst mit dem zu verbinden 
-        war für mich von Anfang an das schwerste. Naja, nach viel herumprobieren hat das auch geklappt.
-        Dann habe ich im laufe der Tage sehr viel darüber gelernt, wie man mit einem Server kommuniziert,
-        den man nicht anfassen kann
     </p>
 '); ?>
