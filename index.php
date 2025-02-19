@@ -14,6 +14,8 @@
     <div>
         <?php include 'html/header.php'; ?>
 
+        <?php ?>
+
         <div class="container">
             <div class="row bg-blue text-center text-white">
                 <div class="" >
