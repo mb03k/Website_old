@@ -116,6 +116,19 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven">
+                            <p>Ich habe alles angeschaut... WER ist jetzt dieser Matthes??!?</p>
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p><a href="https://weristmatthes.de/aboutme/">Ich</a>😎</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         
