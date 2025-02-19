@@ -1,5 +1,31 @@
-.work-sans {
-    font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
+.title {
+    font-family: "Archivo", serif;
+    font-weight: 700;
+    font-size: 4em;
+}
+
+p {
+    font-family: "Albert sans", serif;
+}
+
+.blockquote {
+    font-family: "Caveat", serif;
+}
+
+.text_cont {
+    background: linear-gradient(145deg, #00ffff, #0a2351, #032c79);
+    background-size: 200% 400%;
+    animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
