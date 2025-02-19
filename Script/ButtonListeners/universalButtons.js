@@ -8,6 +8,9 @@ addWebsiteLink(document.getElementsByClassName('projects_link'), "projekte");
 
 addLocalWebsiteLink(document.getElementsByClassName('movies_link'), "popcornphilosoph");
 addWebsiteLinkNewURL(document.getElementsByClassName('github_link'), "https://www.github.com/mb03k");
+addWebsiteLinkNewURL(document.getElementsByClassName('chesscom_link'), "https://www.chess.com/member/mb03k");
+
+
 
 
 function addWebsiteLink(buttons, name) {
