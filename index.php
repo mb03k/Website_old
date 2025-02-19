@@ -12,11 +12,25 @@
 
 <body class="gradient">
     <div>
-        <?php include 'html/header.php'; ?>
+        <?php 
+            include 'html/header.php'; 
+            include 'projekte/Service.php';
 
-        <?php ?>
+            $pID_1 = 6;
+            $pID_2 = 1;
+
+            $projektname = 1;
+            $projektbeschreibung = 2;
+            $projektbild = 3;
+        ?>
 
         <div class="container">
+            <div class="mt-4  border text-white text-center" style="background-color: rgba(255, 0, 0, 0.6);">
+                <p class="h2">ACHTUNG ACHTUNG</p>
+                <p>Die Website befindet sich endlich in der Überarbeitung</p>
+                <p>Einige Seiten habe ich schon aktualisiert, darunter meine Projekte und aboutme. Gerne anschauen!</p>
+            </div>  
+            
             <div class="row bg-blue text-center text-white">
                 <div class="" >
                     <p class="line-1 anim-typewriter yoSoyMatthes mt-4" style="line-height:1.1em; font-weight: bold; font-size: 3.5em; margin: 0;">
@@ -42,15 +56,14 @@
                         </div>
                         <div class="container row projectOne m-2" id="projectChess">
                             <div class="col">
-                                <img class="img-fluid" src="Assets/chess.png">
+                                <img class="img-fluid" src="Assets/<?php echo $projekte[$pID_1][$projektbild]; ?>">
                             </div>
         
                             <div class="col">
                                 <span>
-                                    <h5>Schach
-                                        <i class="bi bi-x-circle-fill" style="height:1rem; color: rgb(195, 0, 0);"></i>
+                                    <h5><?php echo $projekte[$pID_1][$projektname]; ?>
                                     </h5>
-                                    <p>Ein Spiel, für das ich brenne. Seit langem auf meiner To-Do-Liste</p>
+                                    <p><?php echo $projekte[$pID_1][$projektbeschreibung]; ?></p>
                                 </span>
                             </div>
                         </div>
@@ -59,15 +72,14 @@
 
                         <div class="container row projectTwo m-2" id="projectCheckers">
                             <div class="col">
-                                <img class="img-fluid" src="Assets/dame.png">
+                                <img class="img-fluid" src="Assets/<?php echo $projekte[$pID_2][$projektbild]; ?>">
                             </div>
         
                             <div class="col">
                                 <span>
-                                    <h5>Dame
-                                        <i class="bi bi-check-circle-fill" style="height:1rem; color: rgb(0, 195, 0);"></i>
+                                    <h5><?php echo $projekte[$pID_2][$projektname]; ?>
                                     </h5>
-                                    <p>Unser Abschlussprojekt für das Modul 'AOP II'</p>
+                                    <p><?php echo $projekte[$pID_2][$projektbeschreibung]; ?></p>
                                 </span>
                             </div>
                         </div>
@@ -83,9 +95,8 @@
                         </div>
                         <p class="p-4">
                             Studieren ist anstrengend. Auch wenn viele Quellen anderes behaupten.
-                            Leider komme ich daher in letzter Zeit nicht so richtig dazu, hier weiterzuarbeiten. 
-                            Schau doch deshalb alle paar Wochen bzw. Monate vorbei; bestimmt hat sich
-                            in der Zeit etwas getan!
+                            Bei mir hat dafür endlich die Vorlesungsfreie Zeit angefangen.
+                            Mehr Zeit mich hiermit und 1000 anderen Sachen auseinanderzusetzen!
                         </p>
                         
                     </div>
