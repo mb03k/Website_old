@@ -1,9 +1,16 @@
+<?php
+    session_start();
+    // direkt weiterleiten falls Zugriff ermöglicht
+    /*if (isset($_SESSION["bewerbungszugriff"]) && $_SESSION["bewerbungszugriff"] === true) {
+        header("Location: bewerbung/");
+    }*/
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <?php include '../html/head.php'; ?>
     <title>Portfolio</title>
-
 </head>
 
 <body class="gradient">
@@ -11,37 +18,28 @@
         <?php include '../html/header.php'; ?>
         
         <div class="container">
-            <h2>Dauert noch etwas...</h2>
-            <div class="" hidden>Sehr geehrte Damen und Herren,
-                
-                je nachdem wie viel Sie bisher von meiner Website gesehen haben, muss ich hier sagen:
+            <p class="h2 text-center mt-4 mb-4">Willkommen! Bitte geben Sie den Code ein, den ich meiner Bewerbung beigefügt habe</p>
+            <form action="welcome.php" method="POST">
+                <div class="container d-flex flex-column">
+                    <div class="d-flex justify-content-center">
+                        <input type="text" name="code" class="form-control w-75" style="height: 4em;" placeholder="4A6z...">
+                    </div>
 
-                auch wenn vieles lustig erscheinen mag, kann ich auch ernst. Ich bin eine sehr ironische 
-                Person in meinem privaten Umfeld. Jedoch hält mich das in keinster Weise davon ab, in
-                professioneller Art und Weise mit meinen Mitmenschen umzugehen.
-                Demnach möchte ich Sie in Ihrem 'privaten' Bereich meiner Website davon überzeugen.
-
-                Allem in allem möchte ich auf meiner <i>öffentlichen</i> Website etwas privatsphäre
-                beibehalten. Demnach ist der weitere Zugang nur für Sie mit dem richtigen 
-                Code zugänglich, den ich Ihnen in meiner Bewerbung beigefügt habe.
-                Geben Sie diesen ein und werden Sie ganz einfach weitergeleitet.
-
-
-                Mit freundlichen Grüßen
-
-                Matthes Böttcher
-
-            </div>
-
-            <div class="container d-flex flex-column">
-                <div class="d-flex justify-content-center">
-                    <input type="email" class="form-control w-75" style="height: 4em;"id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="4A6z...">
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn btn-primary w-50">Senden</button>
+                    </div>
                 </div>
-
-                <div class="d-flex justify-content-center">
-                    <button type="submit" class="btn btn-primary w-50">Senden</button>
-                </div>
+            </form>
+            <div class="d-flex justify-content-center text-center">
+                <p class="text-light rounded p-2 mt-2" style="background-color: rgb(255,0,0,0.5);" id="peekaboo-falscheEingabe" hidden>
+                    Falscher Versuch!
+                </p>
             </div>
+            <script>
+                if (window.location.hash) {
+                    document.getElementById("peekaboo-falscheEingabe").hidden = false;
+                }
+            </script>
         </div>
 
         <?php include '../html/footer.php'; ?>
