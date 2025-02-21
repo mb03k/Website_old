@@ -24,10 +24,17 @@
             $projektbild = 3;
         ?>
 
+        <a href="addmovie/">addmovie</a>
+        <a href="addmovie/processing.php">addmovie/processing.php</a>
+        <a href="portfolio/">portfolio</a>
+        <a href="portfolio/welcome.php">portfolio/welcome</a>
+        <a href="portfolio/bewerbung/">portfolio/bewerbung</a>
+        <a href="sicherheit/logout.php">logout</a>
+
         <div class="container">
             <div class="mt-4  border text-white text-center" style="background-color: rgba(255, 0, 0, 0.6);">
                 <p class="h2">ACHTUNG ACHTUNG</p>
-                <p>Die Website befindet sich endlich in der Überarbeitung</p>
+                <p class="mb-0">Die Website befindet sich endlich in der Überarbeitung</p>
                 <p>Einige Seiten habe ich schon aktualisiert, darunter meine Projekte und aboutme. Gerne anschauen!</p>
             </div>  
             
