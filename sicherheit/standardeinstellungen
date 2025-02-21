@@ -1,0 +1,13 @@
+Folgende Standardmäßige Einstellungen versuche ich einzuhalten:
+
+Sessions werden bei allen bis auf Ring 0 nicht aktualisiert, wenn der Nutzer eingaben tätigt
+-> d.h. Sessions des Rings > 0 laufen auch ab, wenn man dauerhaft auf der Website herumscrollt
+
+Ring-Sicherheits-Modell:
+    Ring 0: 157788000 s -> 5 Jahre Session Laufzeit
+    Ring 1: 1209600 s -> 14 Tage Session Laufzeit
+
+Sessions müssen folgende Attribute besitzen:
+$_SESSION['login_time']
+$_SESSION['ring']
+$_SESSION['session_timer']
