@@ -1,44 +1,38 @@
 [
     {
         "name": "Eternal Sunshine of the spotless mind",
-        "path": "../Assets/movies/eternal_sunshine_of_the_spotless_mind.jpg",
-        "rating": "9.5/10",
-        "description": "Ziemlich cooler Film",
-        "bg_opacity": ".3"
+        "path": "eternal_sunshine_of_the_spotless_mind.jpg",
+        "rating": "9.5",
+        "description": "Ziemlich cooler Film"
     },
     {
         "name": "Before Sunrise",
-        "path": "../Assets/movies/before_sunrise.jpg",
-        "rating": "8/10",
-        "description": "Ziemlich cooler Film",
-        "bg_opacity": ".5"
+        "path": "before_sunrise.jpg",
+        "rating": "8",
+        "description": "Ziemlich cooler Film"
     },
     {
         "name": "Before Sunset",
-        "path": "../Assets/movies/before_sunset.jpg",
-        "rating": "8/10",
-        "description": "Definitiv empfehlenswert blablabla",
-        "bg_opacity": ".3"
+        "path": "before_sunset.jpg",
+        "rating": "8",
+        "description": "Definitiv empfehlenswert blablabla"
     },
     {
         "name": "Before Midnight",
-        "path": "../Assets/movies/before_midnight.jpg",
-        "rating": "9/10",
-        "description": "Ziemlich cooler Film",
-        "bg_opacity": ".5"
+        "path": "before_midnight.jpg",
+        "rating": "9",
+        "description": "Ziemlich cooler Film"
     },
     {
         "name": "Adjustment Bureau",
-        "path": "../Assets/movies/adjustment_bureau.jpg",
-        "rating": "7/10",
-        "description": "Hat Ähnlichkeiten zu 'The Eternal Sunshine Of The Spotless Mind' - im Genre Sci-Fi. Hat mich im Nachhinein trotzdem gecatcht",
-        "bg_opacity": ".3"
+        "path": "adjustment_bureau.jpg",
+        "rating": "7",
+        "description": "Hat Ähnlichkeiten zu 'The Eternal Sunshine Of The Spotless Mind' - im Genre Sci-Fi. Hat mich im Nachhinein trotzdem gecatcht"
     },
     {
         "name": "When Harry Met Sally",
-        "path": "../Assets/movies/when_harry_met_sally.jpg",
-        "rating": "7.5/10",
-        "description": "Erinnert mich an die before-trilogy. Im Film vergehen mehrere Jahre in denen sie sich stück für stück immer näher kommen. Ich finde diese 'Hassliebe' zwischen ihnen sehr gut dargestellt. Werde diesen Text aber noch überarbeiten. Bin mit ihm wirklich nicht zufrieden",
-        "bg_opacity": ".5"
+        "path": "when_harry_met_sally.jpg",
+        "rating": "7.5",
+        "description": "Erinnert mich an die before-trilogy. Im Film vergehen mehrere Jahre in denen sie sich stück für stück immer näher kommen. Ich finde diese 'Hassliebe' zwischen ihnen sehr gut dargestellt. Werde diesen Text aber noch überarbeiten. Bin mit ihm wirklich nicht zufrieden"
     }
 ]
