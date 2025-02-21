@@ -17,40 +17,11 @@
                 <p class="h2">Eine kleine Auswahl an Filmen, die ich über die Zeit gesehen habe</p>
                 <p class="h4"> - mit dazugehöriger Bewertung</p>
             </div>
+
             <div class="container">
-                <!--<div class="m-2 row d-flex justify-content-center">
-                    <div class="row col-lg m-2 p-2 bg-success rounded" style="--bs-bg-opacity: .5;">
-                        <span>
-                            Also, was mache ich hier? Ich stelle euch Filme vor!
-                            Irgendwann werde ich die Filme in einer Datenbank speichern und eine Sortierung
-                            einbauen, damit ich das hier nicht mit <b>7</b> Stunden Arbeit alles
-                            einzeln einfügen muss. Aber das kann noch dauern...
-                            Deshalb sortiere ich die Filme nach möchtegern Genres
-                        </span>
-                        <span class="mt-4 p-2 bg-success rounded" style="--bs-bg-opacity: .5;">
-                            Aber zuerst meine TOP-Empfehlungen:
-                            <p>1. Eternal Sunshine of the Spotless mind</p>
-                            <p>2. Shutter Island</p>
-                            <p>3. Requiem for a Dream -> wer einen <i>sehr</i> mitreißenden Film sucht</p>
-                        </span>
-                    </div>
-
-                    <div class="row col-lg m-2 p-2 bg-warning rounded" style="--bs-bg-opacity: .5;">
-                        <div class="text-center">
-                            <span style="font-size:1.4em;"><p style="margin:0;">⭐️⭐️⭐️</p> Sterne kommen bald <p style="margin:0;">⭐️⭐️⭐️</p></span>
-                        </div>
-
-                        <div class="text-center">
-                            <span>
-                                Bis dahin bitte mit x/10 genügen
-                                (genau so wie eine genauere Beschreibung der Filme kommen wird [ich muss natürlich
-                                meine Meinung dazu beitragen... ohne Frage])
-                            </span>
-                        </div>
-                    </div>
-                </div>-->
                 <?php include 'showMovies.php'; ?>
             </div>
+            
         </div>
     </div>
 
