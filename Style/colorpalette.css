@@ -1,0 +1,38 @@
+/*
+Reihenfolge:
+purple-700
+purple-600
+purple
+purple-500
+purple-400
+purple-300
+purple-200
+*/
+
+.bg-purple {
+    background-color: #6f42c1;
+}
+
+.bg-purple-200 {
+    background-color: #BEA8DF;
+}
+
+.bg-purple-300 {
+    background-color: #A080D0;
+}
+
+.bg-purple-400 {
+    background-color: #8259C1;
+}
+
+.bg-purple-500 {
+    background-color: #6533B3;
+}
+
+.bg-purple-600 {
+    background-color: #50298B;
+}
+
+.bg-purple-700 {
+    background-color: #3B2066;
+}

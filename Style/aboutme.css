@@ -18,6 +18,12 @@ p {
     animation: gradient 20s ease infinite;
 }
 
+.text_cont_upwards {
+    background: linear-gradient(-30deg, #00ffc8, #0a2351, #032c79);
+    background-size: 200% 400%;
+    animation: gradient 20s ease infinite;
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
