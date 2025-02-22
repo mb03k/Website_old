@@ -7,9 +7,8 @@
 
     if ($un === $nutzername && $pw === $passwort) {
         $_SESSION["ring"] = 0;
-        //$_SESSION['id'] = x; für Firma
         $_SESSION["login_time"] = time();
-        $_SESSION["session_ablauf"] = 157788000; // 5 Jahre
+        $_SESSION["session_timer"] = 157788000;
         header("Location: https://weristmatthes.de/#HalloMatthes");
     } else {
         header("Location: https://weristmatthes.de/#nichtAngemeldet");
