@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Londrina+Sketch&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="Style/colorpalette.css">
 </head>
 
 <body class="gradient">
@@ -32,10 +33,10 @@
         <a href="sicherheit/logout.php">logout</a>
 
         <div class="container">
-            <div class="mt-4  border text-white text-center" style="background-color: rgba(255, 0, 0, 0.6);">
-                <p class="h2">ACHTUNG ACHTUNG</p>
-                <p class="mb-0">Die Website befindet sich endlich in der Überarbeitung</p>
-                <p>Einige Seiten habe ich schon aktualisiert, darunter meine Projekte und aboutme. Gerne anschauen!</p>
+            <div class="mt-4 p-1 border text-white text-center" style="background-color: rgba(255, 0, 0, 0.3);">
+                <p class="h2">weristmatthes.de v2</p>
+                <p class="mb-0">Endlich! Endlich habe ich Zeit gefunden um hier weiterzumachen!</p>
+                <p>Schau dich gern um. Ich habe nahezu jede Seite zumindest ein bisschen überarbeitet!</p>
             </div>  
             
             <div class="row bg-blue text-center text-white">
@@ -168,6 +169,41 @@
                         <img src="Assets/tailwind.png" class="img-fluid pb-1" style="width: 2em; height: 2em;">
                     </span>
                 </p>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div>
+                <p class="h2 bg-purple-700 p-2 mb-0 mt-4 rounded">Volunteering!</p>
+                <p class="bg-purple-600 p-2 mb-0 rounded">
+                    Ich schaue gerne Filme <a class="bg-purple-300 p-1 rounded" href="https://weristmatthes.de/popcornphilosoph">*hust*</a>
+                </p>
+                <p class="bg-purple-500 p-2 mb-0 rounded">
+                    Möchtest du mir eine Empfehlung geben?
+                </p>
+                <p class="bg-purple p-2 mb-0 rounded">
+                    Das ist nämlich gern gesehen!
+                </p>
+                <p class="bg-purple-400 p-2 mb-0 rounded">
+                    Einfach auf diesen Button klicken:
+                    <input class="btn btn-light" type="submit" value="yes yes yes" id="movievolunteer">
+                </p>
+                
+                <p class=" mb-0 mt-4"><small>
+                &#8321 über dich werden keine Daten gespeichert. Nur deine eigenen Eingaben!
+                </small></p>
+
+                <p class=" mb-0"><small>
+                &#8322 <u>NIEMAND</u> außer mir kann deine eingegebenen Daten sehen
+                </small></p>
+
+                <p class=""><small>
+                    &#8323 Wie garantiere ich das? Die JSON Datei (keine Datenbank), in der die Daten gespeichert sind,
+                    wird im privaten Bereich des Apache-Webservers gespeichert. Niemand außerhalb des Servers (wie du)
+                    hast Zugriff auf diese Daten. Das speichern regelt PHP (Backend-Programmiersprache), auf welche
+                    ebenso kein Nutzer Zugriff hat
+                </small></p>
             </div>
         </div>
 
