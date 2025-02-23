@@ -23,7 +23,7 @@ echo $movieWatchDate . "<br>";
 
 // JSON aktualisieren:
     // Pfad zur JSON-Datei
-    $jsonFile = "Assets/json/" . getJsonFileName();
+    $jsonFile = "../Assets/json/" . getJsonFileName();
     echo "JsonFileName: ".$jsonFile;
 
     // Neues Element, das angefügt werden soll
@@ -50,7 +50,7 @@ echo $movieWatchDate . "<br>";
     file_put_contents($jsonFile, json_encode($datenArray, JSON_PRETTY_PRINT));
     echo "Dateipfad: " . $jsonFile;
 
-    echo "Daten erfolgreich angefügt!";
+    echo "Daten erfolgreich zu JSON angefügt";
 
 
 
@@ -59,13 +59,13 @@ echo $movieWatchDate . "<br>";
 // Datei-Upload prüfen und speichern
 if (isset($_FILES['fileToUpload']) && $_FILES['fileToUpload']['error'] === 0) {
     $dateiName = $moviepath;
-    $zielPfad = 'Assets/movies/' . $dateiName; // Name des Bilds
+    $zielPfad = '../Assets/movies/' . $dateiName; // Name des Bilds
 
     // Datei speichern
     if (move_uploaded_file($_FILES['fileToUpload']['tmp_name'], $zielPfad)) {
         echo "Datei erfolgreich hochgeladen: <a href='$zielPfad'>$zielPfad</a><br>";
-        echo "Titel: " . htmlspecialchars($titel) . "<br>";
-        echo "description: " . htmlspecialchars($description);
+        echo "Titel: " . htmlspecialchars($movietitle) . "<br>";
+        echo "description: " . htmlspecialchars($moviedescription);
     } else {
         echo "Fehler beim Hochladen!";
     }
@@ -86,12 +86,14 @@ function getJsonFileName() {
         case 4:
             return "horror.json";
         case 5:
-            return "just_watch.json";
+            return "drama.json";
         case 6:
-            return "romantic.json";
+            return "just_watch.json";
         case 7:
-            return "thriller.json";
+            return "romantic.json";
         case 8:
+            return "thriller.json";
+        case 9:
             return "books.json";
     }
 }
