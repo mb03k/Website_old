@@ -1,13 +1,14 @@
 <!DOCTYPE html>
+<html lang="de">
 <head>
-    <html lang="en">
-    <title>Start</title>
     <?php include 'html/head.php'; ?>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Start</title>
+
+    <meta name="description" content="Wer ist Matthes? Sich kurz oder lang in meiner Website verlieren und den Inhalt bewundern. Projekte, Filme, etwas über mich ansehen oder auch einen Vorschlag für einen Film geben!">
+    <meta name="keywords" content="Matthes, Projekte, Filme, FAQ, Volunteering">
+
     <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Londrina+Sketch&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../Style/homestyle.css">
     <link rel="stylesheet" href="Style/colorpalette.css">
 </head>
 
@@ -173,11 +174,12 @@
         </div>
 
 
-        <div class="container">
+        <div class="container " style="margin-top: 100px;">
             <div>
                 <p class="h2 bg-purple-700 p-2 mb-0 mt-4 rounded">Volunteering!</p>
                 <p class="bg-purple-600 p-2 mb-0 rounded">
-                    Ich schaue gerne Filme <a class="bg-purple-300 p-1 rounded" href="https://weristmatthes.de/popcornphilosoph">*hust*</a>
+                    Ich schaue gerne Filme <a class="bg-purple-300 p-1 rounded movies_link" href="https://weristmatthes.de/popcornphilosoph"
+                    >*hust*</a>
                 </p>
                 <p class="bg-purple-500 p-2 mb-0 rounded">
                     Möchtest du mir eine Empfehlung geben?
@@ -202,7 +204,7 @@
                     &#8323 Wie garantiere ich das? Die JSON Datei (keine Datenbank), in der die Daten gespeichert sind,
                     wird im privaten Bereich des Apache-Webservers gespeichert. Niemand außerhalb des Servers (wie du)
                     hast Zugriff auf diese Daten. Das speichern regelt PHP (Backend-Programmiersprache), auf welche
-                    ebenso kein Nutzer Zugriff hat
+                    Nutzer ebenso keinen Zugriff haben
                 </small></p>
             </div>
         </div>
