@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <?php include '../html/head.php'; ?>
     <title>Projekte</title>
     <link rel="stylesheet" href="../Style/projects.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta name="description" content="Meine aktuellen Projekte die ich im Bereich der Informatik nebenher gemacht, oder aktuell vor mich her laufen habe">
+    <meta name="keywords" content="Projekte, DIY, Drone, Dame, Schach, Website, Würfel">
 </head>
 
 <body class="gradient">

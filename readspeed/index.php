@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <?php include '../html/head.php'; ?>
     <title>Readspeed</title>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta name="description" content="Ein kleines Projekt, Text mit dicken Buchstaben zu unterstützen, um schneller lesen zu können">
+    <meta name="keywords" content="schneller lesen, projekt">
 </head>
 
 <body class="gradient">

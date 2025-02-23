@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <?php include '../html/head.php'; ?>
     <title>FAQ</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta name="description" content="Eine tendenziell eher sarkastisch gehaltene Seite. Ein paar Fragen beantworten, die man sich unter anderem so stellen könnte">
+    <meta name="keywords" content="FAQ, Fragen, Antworten, Matthes, Vorschläge">
 </head>
 
 <body class="gradient">

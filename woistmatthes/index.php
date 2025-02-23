@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <?php include '../html/head.php' ?>
     <title>Nichts gefunden</title>
+    <meta name="description" content="Vermutlich hast du dich verlaufen!">
+    <meta name="keywords" content="404, nicht gefunden">
 </head>
 
 <body class="gradient">

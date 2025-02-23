@@ -1,24 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <title>Datenschutz</title>
     <?php include '../html/head.php'; ?>
     
-    
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta name="description" content="Der Datenschutz zu meiner Website - weristmatthes.de">
+    <meta name="keywords" content="Datenschutz">
 </head>
 
 <body class="gradient">
-    <div>
-        
+    <div>        
         <?php include '../html/header.php'; ?>
 
-        
         <div class="container">
             <h1 class="text-center mt-3">
-                Ja, selbst eine private Website braucht eine Datenschutzerklärung.
-                Danke Europa. Demnach: Viel Spaß beim durchlesen
+                Ich bin froh erfahren zu haben, dass auch eine private Website eine Datenschutzerklärung benötigt. Viel Spaß
+                beim lesen
             </h1>
             
             <br>
