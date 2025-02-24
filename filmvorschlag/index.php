@@ -34,7 +34,7 @@
             </div>
 
             <div class="bg-purple p-2 rounded" style="margin-top: 200px;">
-                <p class="bg-purple-700 rounded p-1">Nein, ich lüge nicht: <a href="https://www.imdb.com/de/title/tt0102569/">'A Nymphoid Barbarian in Dinosaur Hell'</a> ist ein echter Film</p>
+                <p class="bg-purple-700 rounded p-1">Nein, ich lüge nicht: <a href="#" class="funny_movie_name_link">'A Nymphoid Barbarian in Dinosaur Hell'</a> ist ein echter Film</p>
                 <p class="bg-purple-700 rounded p-1 mb-0">Und nein: &lt;script&gt;console.log("Hallo ich bin ein Hacker");&lt;script&gt; geht nicht!</p>
                 <p class="bg-purple-700 rounded p-1">-> aber bitte sein lassen bevor die Website explodiert o.Ä.</p>
             </div>
@@ -48,7 +48,9 @@
             }
         </script>
 
-    <?php include '../html/footer.php'; ?>
+        <?php include '../html/footer.php'; ?>
     </div>
+    <script type="application/x-javascript" src="../Script/ButtonListeners/headerfooter.js"></script>
+    <script type="application/x-javascript" src="../Script/ButtonListeners/filmvorschlag.js"></script>
 </body>
 </html>
