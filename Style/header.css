@@ -1,49 +1,11 @@
-header {
-    height:5%;
-    padding: 10px 20px;
-    margin-top: 5px;
-}
-
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo img {
-    height: 40px; 
-    width: auto;
-}
-
-.nav-icons {
-    display: flex;
-    gap: 15px;
-}
-
-.icon img {
-    height: 24px;
-    width: 24px;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.icon:hover img {
-    transform: scale(1.1);
-    opacity: 0.8;
-}
-
-@media (min-width: 768px) {
-    .icon img {
-        height: 32px;
-        width: 32px;
-    }
-}
-
-.headerHover {
+.symbol_link {
     transition: 0.3s;
+    border-radius:10px;
+    
 }
 
-.headerHover:hover {
-    width: 60px;
+.symbol_link:hover {
+    border-radius:10px;
     background-color: gray;
     cursor: pointer;
     transition: 0.3s;
