@@ -1,16 +1,18 @@
 <?php
     session_start();
     // direkt weiterleiten falls Zugriff ermöglicht
-    /*if (isset($_SESSION["bewerbungszugriff"]) && $_SESSION["bewerbungszugriff"] === true) {
+    if (isset($_SESSION["ring"]) && $_SESSION["ring"]<=1) {
         header("Location: bewerbung/");
-    }*/
+    }
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <?php include '../html/head.php'; ?>
     <title>Portfolio</title>
+    <meta name="description" content="Eine Seite für Bewerbungen und dessen Personal, um mich genauer vorzustellen">
+    <meta name="keywords" content="Portfolio, Bewerbung, Vorstellung">
 </head>
 
 <body class="gradient">
@@ -45,8 +47,6 @@
         <?php include '../html/footer.php'; ?>
     </div>
 
-    <script type="application/x-javascript" src="../Script/ButtonListeners/universalButtons.js"></script>
-    <script type="application/x-javascript" src="../Script/ReadSpeed/readSpeed.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="application/x-javascript" src="../Script/ButtonListeners/headerfooter.js"></script>
 </body>
 </html>

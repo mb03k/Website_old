@@ -72,7 +72,7 @@
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <p>Viele Menschen aus den verschiedensten Ländern. Nicht ich.</p>
-                            <p>Es scheint nicht so, aber <a href="weristmatthes.de">weristmatthes.de</a>
+                            <p>Es scheint nicht so, aber <a href="#" class="weristmatthes_link">weristmatthes.de</a>
                                 ist eine sehr, sehr, <i>sehr</i> beliebte Website. Zumindest wird sie das sein.</p>
                             <p>*mentales, optimistisches ausatmen* Sie wird es sein!
                             </p>
@@ -111,7 +111,7 @@
                             <span>Sie kostet mich pro Monat 0,05€, was pro Jahr 0,60€ sind.</span></p>
 
                             <p><b>Faktor B:</b> der Server <br>
-                            <span>Ich hoste einen VC 1-1 Server mit der <a href="strato.de">Strato AG</a>.
+                            <span>Ich hoste einen VC 1-1 Server mit der <a href="#" class="strato_link">Strato AG</a>.
                                 Dieser besitzt alles was ich brauche. 10GB NVMe Speicher (vollkommen ausreichend
                                 für solch eine kleine Website). Er kostet mich 1,00€ pro Monat, was per Quartal
                                 abgerechnet wird. Sprich: 3,00€ für 3 Monate, 12,00€ pro Jahr.</span></p>
@@ -127,7 +127,7 @@
                     </h2>
                     <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <p><a href="https://weristmatthes.de/aboutme/">Ich</a>😎</p>
+                            <p><a href="#" class="aboutme_link">Ich</a>😎</p>
                         </div>
                     </div>
                 </div>
@@ -138,8 +138,8 @@
 
     </div>
 
-    <script type="application/x-javascript" src="../Script/ButtonListeners/universalButtons.js"></script>
-    <script type="application/x-javascript" src="../Script/ReadSpeed/readSpeed.js"></script>
+    <script type="application/x-javascript" src="../Script/ButtonListeners/headerfooter.js"></script>
+    <script type="application/x-javascript" src="../Script/ButtonListeners/faq.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
