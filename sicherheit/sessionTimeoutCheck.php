@@ -1,8 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['login_time']) || !isset($_SESSION['session_timer'])) {
-    header("Location: https://weristmatthes.de/sicherheit/logout.php");
-    
+    header("Location: https://weristmatthes.de/");
     die("Bitte einloggen!");
 }
 
