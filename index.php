@@ -130,7 +130,7 @@
                     Ich habe mich aber etwas zu sehr reingestürzt und den ganzen Aufwand unterschätzt,
                     wie schwer es sein kann eine Seite überhaupt mit Text zu füllen. Deshalb lasse ich es
                     klein angehen. Wie wäre es denn in der Zwischenzeit mit einer - zugegebenermaßen - 
-                    sehr schönen Auswahl an <a href="https://weristmatthes.de/popcornphilosoph">Filmen</a>?
+                    sehr schönen Auswahl an <a href="#" class="movies_link">Filmen</a>?
                 </span>
             </p>
 
@@ -160,12 +160,12 @@
                 </div>
 
                 <p class="m-1 bootswindfont">
-                    <span class="p-1 m-2 rounded bootswindhover" id="bootstrap_button">
+                    <span class="p-1 m-2 rounded bootswindhover bootstrap_link" id="bootstrap_button">
                         Bootstrap
                         <img src="Assets/bootstrap.png" class="mb-1" style="width:35px;">
                     </span>
 
-                    <span class="p-1 m-2 rounded bootswindhover" id="tailwind_button">
+                    <span class="p-1 m-2 rounded bootswindhover tailwind_link" id="tailwind_button">
                         Tailwind
                         <img src="Assets/tailwind.png" class="img-fluid pb-1" style="width: 2em; height: 2em;">
                     </span>
@@ -174,11 +174,11 @@
         </div>
 
 
-        <div class="container " style="margin-top: 100px;">
+        <div class="container" style="margin-top: 100px;">
             <div>
                 <p class="h2 bg-purple-700 p-2 mb-0 mt-4 rounded">Volunteering!</p>
                 <p class="bg-purple-600 p-2 mb-0 rounded">
-                    Ich schaue gerne Filme <a class="bg-purple-300 p-1 rounded movies_link" href="https://weristmatthes.de/popcornphilosoph"
+                    Ich schaue gerne Filme <a class="bg-purple-300 p-1 rounded movies_link" href="#"
                     >*hust*</a>
                 </p>
                 <p class="bg-purple-500 p-2 mb-0 rounded">
@@ -189,7 +189,7 @@
                 </p>
                 <p class="bg-purple-400 p-2 mb-0 rounded">
                     Einfach auf diesen Button klicken:
-                    <input class="btn btn-light" type="submit" value="yes yes yes" id="movievolunteer">
+                    <input class="btn btn-light movieproposal_link" type="submit" value="yes yes yes" id="movievolunteer">
                 </p>
                 
                 <p class=" mb-0 mt-4"><small>
@@ -212,9 +212,8 @@
         <?php include 'html/footer.php'; ?>
     </div>
 
-    <script type="application/x-javascript" src="Script/ButtonListeners/universalButtons.js"></script>
+    <script type="application/x-javascript" src="Script/ButtonListeners/headerfooter.js"></script>
     <script type="application/x-javascript" src="Script/ButtonListeners/home.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
