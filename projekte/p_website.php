@@ -6,9 +6,9 @@
         Das ist es!
         Ich wollte aber nicht den 0815 Weg mit einer Wordpress-Website gehen. Im Internet sind 
         unglaubliche 43% aller Seiten von CMS (Content-Management-Systems) erstellt. D.h. Wordpress
-        oder ähnliches. Und dazu habe ich sogar eine Quelle: <a href="https://www.ionos.de/digitalguide/hosting/cms/cms-vergleich/#:~:text=Der%20Analysewebsite%20W3Techs%20zufolge%20basieren,%2C%20sind%20Joomla!%20und%20Drupal." target="_blank">
+        oder ähnliches. Und dazu habe ich sogar eine Quelle: <a href="#" class="ionos_link">
         Ionos</a> schreibt das auf ihrer Website. Verlinken
-        im Endeffekt aber zu <a href="https://w3techs.com/technologies/overview/content_management" target="_blank">
+        im Endeffekt aber zu <a href="#" class="wetechs_link">
         dieser Seite</a>. Aber wer kann es einem auch übel nehmen; es ist um welten angenehmer als sich
         alles selbst beizubringen. HTML, CSS, JavaScript, PHP, SQL, Angular, React, Next.js, Vue.js, Bootstrap,
         Tailwind und 1000

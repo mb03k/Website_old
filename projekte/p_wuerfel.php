@@ -51,7 +51,6 @@
         <figure class="figure d-flex justify-content-center">
                 <img src="../Assets/wuerfelfunktionierend.jpg" style="width: 300px" class="figure-img img-fluid rounded" alt="Funktionierender Aufbau des Würfels">
         </figure>
-        <p>Das hier war der Aufbau, den ich auch für unsere Abgabe entworfen habe</p>
     </div>'
 );
 ?>
