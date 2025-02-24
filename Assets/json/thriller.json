@@ -18,12 +18,6 @@
         "description": "Definitiv empfehlenswert blablabla"
     },
     {
-        "name": "Der Fall Collini",
-        "path": "der_fall_collini.jpg",
-        "rating": "8",
-        "description": "Sehr interessant dargestellt. Man fühlt mit. Schön produziert und anzusehen, der einzige Makel ist das Ende - für mich etwas dramatisch 'dargestellt'"
-    },
-    {
         "name": "Dominion",
         "path": "dominion.jpg",
         "rating": "",
@@ -33,6 +27,6 @@
         "name": "The Whale",
         "path": "the_whale.jpg",
         "rating": "7",
-        "description": "--Kein Thriller aber ich habe noch kein Genre dafür-- ich war während des Films darauf getrimmt nur darauf abzuwarten dass er sich ändert und anfängt super viel Sport zu machen. Aber darum geht es nicht. Ich fand es gut gemacht wie man sich während des Films immer mehr in ihn hereinversetzt und dieses Leid spürt"
+        "description": "--Kein Thriller aber ich habe noch kein Genre daf\u00fcr-- ich war w\u00e4hrend des Films darauf getrimmt nur darauf abzuwarten dass er sich \u00e4ndert und anf\u00e4ngt super viel Sport zu machen. Aber darum geht es nicht. Ich fand es gut gemacht wie man sich w\u00e4hrend des Films immer mehr in ihn hereinversetzt und dieses Leid sp\u00fcrt"
     }
 ]

@@ -3,25 +3,25 @@
         "name": "Matrix",
         "path": "matrix.jpg",
         "rating": "8",
-        "description": "Hätte niemals gedacht dass ich so eine Art von Film gut finden würde"
+        "description": "H\u00e4tte niemals gedacht dass ich so eine Art von Film gut finden w\u00fcrde"
     },
     {
         "name": "Matrix 2",
         "path": "matrix_2.jpg",
         "rating": "8",
-        "description": "Schöne Fortsetzung von Matrix 1. Eventuell kommt es mir nur so vor, aber hier wurde ein größerer Wert auf die 'Kampfszenen' gelegt. Wer diesen Stil mag, sollte Matrix 2 definitiv anschauen"
+        "description": "Sch\u00f6ne Fortsetzung von Matrix 1. Eventuell kommt es mir nur so vor, aber hier wurde ein gr\u00f6\u00dferer Wert auf die 'Kampfszenen' gelegt. Wer diesen Stil mag, sollte Matrix 2 definitiv anschauen"
     },
     {
         "name": "The Revenant",
         "path": "the_revenant.jpg",
         "rating": "8",
-        "description": "Sehr sehr schöne Filmaufnahmen"
+        "description": "Sehr sehr sch\u00f6ne Filmaufnahmen"
     },
     {
         "name": "Sin City",
         "path": "sin_city.jpg",
         "rating": "7.5",
-        "description": "Ich war in den ersten 20 Minuten echt verwirrt, was das für ein Film sein soll. Mit der Zeit hat sich aber herauskristallisiert, dass es im Film um 4 eigene Geschichten geht. Ich bin überrascht dass ich diesen Stil eines Films so gut finden kann. Ganz schwarz-weiß, bis auf kleine Details, die mit Farben angehaucht sind"
+        "description": "Ich war in den ersten 20 Minuten echt verwirrt, was das f\u00fcr ein Film sein soll. Mit der Zeit hat sich aber herauskristallisiert, dass es im Film um 4 eigene Geschichten geht. Ich bin \u00fcberrascht dass ich diesen Stil eines Films so gut finden kann. Ganz schwarz-wei\u00df, bis auf kleine Details, die mit Farben angehaucht sind"
     },
     {
         "name": "Man from Toronto",
@@ -40,5 +40,11 @@
         "path": "kingsman.jpg",
         "rating": "3",
         "description": "Ist ein Film"
+    },
+    {
+        "name": "",
+        "path": "",
+        "rating": 0,
+        "description": ""
     }
 ]

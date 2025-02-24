@@ -1,101 +1,87 @@
 [
     {
         "name": "Harold & Kumar - White Castle",
-        "path": "../Assets/movies/harold_kumar_white_castle.jpg",
-        "rating": "6/10",
-        "description": "Ziemlich cooler Film",
-        "bg_opacity": ".1"
+        "path": "harold_kumar_white_castle.jpg",
+        "rating": "6",
+        "description": "Ziemlich cooler Film"
     },
     {
         "name": "Harold & Kumar - Escape from Guantanamo",
-        "path": "../Assets/movies/harold_kumar_escape_from_guantanamo.jpg",
-        "rating": "9/10",
-        "description": "Definitiv empfehlenswert blablabla",
-        "bg_opacity": ".2"
+        "path": "harold_kumar_escape_from_guantanamo.jpg",
+        "rating": "9",
+        "description": "Definitiv empfehlenswert blablabla"
     },
     {
         "name": "Harold & Kumar - Christmas",
-        "path": "../Assets/movies/harold_kumar_christmas.jpg",
-        "rating": "6.5/10",
-        "description": "Ziemlich cooler Film",
-        "bg_opacity": ".3"
+        "path": "harold_kumar_christmas.jpg",
+        "rating": "6.5",
+        "description": "Ziemlich cooler Film"
     },
     {
         "name": "21 Jump Street",
-        "path": "../Assets/movies/21_jump_street.jpg",
-        "rating": "8.5/10",
-        "description": "Ziemlich cooler Film",
-        "bg_opacity": ".1"
+        "path": "21_jump_street.jpg",
+        "rating": "8.5",
+        "description": "Ziemlich cooler Film"
     },
     {
         "name": "22 Jump Street",
-        "path": "../Assets/movies/22_jump_street.jpg",
-        "rating": "9/10",
-        "description": "Ziemlich cooler Film",
-        "bg_opacity": ".1"
+        "path": "22_jump_street.jpg",
+        "rating": "9",
+        "description": "Ziemlich cooler Film"
     },
     {
         "name": "Ghost Movie 1",
-        "path": "../Assets/movies/ghost_movie_1.jpg",
-        "rating": "8/10",
-        "description": "Definitiv empfehlenswert blablabla",
-        "bg_opacity": ".4"
+        "path": "ghost_movie_1.jpg",
+        "rating": "8",
+        "description": "Definitiv empfehlenswert blablabla"
     },
     {
         "name": "Ghost Movie 2",
-        "path": "../Assets/movies/ghost_movie_2.jpg",
-        "rating": "8/10",
-        "description": "Ziemlich cooler Film",
-        "bg_opacity": ".5"
+        "path": "ghost_movie_2.jpg",
+        "rating": "8",
+        "description": "Ziemlich cooler Film"
     },
     {
         "name": "A Million Ways to Die in the West",
-        "path": "../Assets/movies/million_ways_to_die_in_the_west.jpg",
-        "rating": "8/10",
-        "description": "Definitiv empfehlenswert blablabla",
-        "bg_opacity": ".6"
+        "path": "million_ways_to_die_in_the_west.jpg",
+        "rating": "8",
+        "description": "Definitiv empfehlenswert blablabla"
     },
     {
         "name": "Anchorman",
-        "path": "../Assets/movies/anchorman_1.jpg",
-        "rating": "6.5/10",
-        "description": "Ziemlich cooler Film",
-        "bg_opacity": ".7"
+        "path": "anchorman_1.jpg",
+        "rating": "6.5",
+        "description": "Ziemlich cooler Film"
     },
     {
         "name": "Borat",
-        "path": "../Assets/movies/borat.jpg",
-        "rating": "4/10",
-        "description": "Ziemlich cooler Film",
-        "bg_opacity": ".7"
+        "path": "borat.jpg",
+        "rating": "4",
+        "description": "Ziemlich cooler Film"
     },
     {
         "name": "Central Intelligence",
-        "path": "../Assets/movies/central_intelligence.jpg",
-        "rating": "7/10",
-        "description": "Definitiv empfehlenswert blablabla",
-        "bg_opacity": ".8"
+        "path": "central_intelligence.jpg",
+        "rating": "7",
+        "description": "Definitiv empfehlenswert blablabla"
     },
     {
         "name": "Night School",
-        "path": "../Assets/movies/night_school.jpg",
-        "rating": "6/10",
-        "description": "Ziemlich cooler Film",
-        "bg_opacity": ".9"
+        "path": "night_school.jpg",
+        "rating": "6",
+        "description": "Ziemlich cooler Film"
     },
     {
         "name": "Der Diktator",
-        "path": "../Assets/movies/der_diktator.jpg",
-        "rating": "7/10",
-        "description": "Ziemlich cooler Film",
-        "bg_opacity": "1.0"
+        "path": "der_diktator.jpg",
+        "rating": "7",
+        "description": "Ziemlich cooler Film"
     },
     {
         "name": "Wolf of Wall Street",
-        "path": "../Assets/movies/wolf_of_wall_street.jpg",
-        "rating": "8/10",
-        "description": "Ein klassiker; muss man gesehen haben. Leonardo DiCaprio ist einfach ein genialer Schauspieler. Ist definitv kein Comedy-Film (für mich), aber im Internet steht Comedy/Thriller, deswegen ist er hier gelandet",
-        "bg_opacity": "1.0"
+        "path": "wolf_of_wall_street.jpg",
+        "rating": "8",
+        "description": "Ein klassiker; muss man gesehen haben. Leonardo DiCaprio ist einfach ein genialer Schauspieler. Ist definitv kein Comedy-Film (für mich), aber im Internet steht Comedy/Thriller, deswegen ist er hier gelandet"
     }
     
 ]
