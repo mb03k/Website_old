@@ -40,11 +40,5 @@
         "path": "kingsman.jpg",
         "rating": "3",
         "description": "Ist ein Film"
-    },
-    {
-        "name": "",
-        "path": "",
-        "rating": 0,
-        "description": ""
     }
 ]
