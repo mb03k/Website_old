@@ -26,13 +26,6 @@
             $projektbild = 3;
         ?>
 
-        <a href="addmovie/">addmovie</a>
-        <a href="addmovie/processing.php">addmovie/processing.php</a>
-        <a href="portfolio/">portfolio</a>
-        <a href="portfolio/welcome.php">portfolio/welcome</a>
-        <a href="portfolio/bewerbung/">portfolio/bewerbung</a>
-        <a href="sicherheit/logout.php">logout</a>
-
         <div class="container">
             <div class="mt-4 p-1 border text-white text-center" style="background-color: rgba(255, 0, 0, 0.3);">
                 <p class="h2">weristmatthes.de v2</p>
@@ -154,7 +147,7 @@
         <div class="container text-center mt-4">
             <div class="row justify-content-center">
                 <div class="text-center w-75 mb-2">
-                    <p class="m-0">Abschließend ein großes Dankeschön an die zwei wundervollen 
+                    <p class="m-0">Ein großes Dankeschön an die zwei wundervollen 
                         CSS Frameworks, durch die selbst ich eine einigermaßen okay-aussehende 
                         Website erstellen konnte:</p>
                 </div>
@@ -212,8 +205,8 @@
         <?php include 'html/footer.php'; ?>
     </div>
 
-    <script type="application/x-javascript" src="Script/ButtonListeners/headerfooter.js"></script>
-    <script type="application/x-javascript" src="Script/ButtonListeners/home.js"></script>
+    <script type="application/x-javascript" src="Script/ButtonListeners/headerfooter.js?v2"></script>
+    <script type="application/x-javascript" src="Script/ButtonListeners/home.js?v2"></script>
 </body>
 
 </html>
