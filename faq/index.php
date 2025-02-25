@@ -13,7 +13,7 @@
     <div>
         <?php include '../html/header.php' ?>
 
-        <div class="container">
+        <div class="container mt-5">
             <div class="accordion">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">

@@ -27,6 +27,6 @@
         <?php include '../html/footer.php'; ?>
     </div>
 
-    <script type="application/x-javascript" src="../Script/ButtonListeners/headerfooter.js"></script>
+    <script type="application/x-javascript" src="../Script/ButtonListeners/headerfooter.js?v2"></script>
 </body>
 </html>

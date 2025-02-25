@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
     <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Archivo:ital,wght@0,100..900;1,100..900&family=Encode+Sans:wght@100..900&family=Liter&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../Style/aboutme.css">
+    <link rel="stylesheet" href="../Style/aboutme.css?v2">
 
     <meta name="description" content="Lern mich kennen und lass dich innerhalb von 2 Sätzen von meiner Ausdrucksweise verwirren!">
     <meta name="keywords" content="aboutme, vorstellung, kennenlernen, über mich">
@@ -157,6 +157,6 @@
         <?php include '../html/footer.php'; ?>
     </div>
 
-    <script type="application/x-javascript" src="../Script/ButtonListeners/headerfooter.js"></script>
+    <script type="application/x-javascript" src="../Script/ButtonListeners/headerfooter.js?v2"></script>
 </body>
 </html>

@@ -86,8 +86,8 @@
 
     </div>
 
-    <script type="application/x-javascript" src="../Script/ButtonListeners/headerfooter.js"></script>
-    <script type="application/x-javascript" src="../Script/ButtonListeners/readSpeed.js"></script>
-    <script type="application/x-javascript" src="../Script/ReadSpeed/readSpeed.js"></script>
+    <script type="application/x-javascript" src="../Script/ButtonListeners/headerfooter.js?v2"></script>
+    <script type="application/x-javascript" src="../Script/ButtonListeners/readSpeed.js?v2"></script>
+    <script type="application/x-javascript" src="../Script/ReadSpeed/readSpeed.js?v2"></script>
 </body>
 </html>

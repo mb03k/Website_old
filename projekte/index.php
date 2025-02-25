@@ -84,7 +84,7 @@
 
     </div>
 
-    <script type="application/x-javascript" src="../Script/ButtonListeners/headerfooter.js"></script>
-    <script type="application/x-javascript" src="../Script/ButtonListeners/projekte.js"></script>
+    <script type="application/x-javascript" src="../Script/ButtonListeners/headerfooter.js?v2"></script>
+    <script type="application/x-javascript" src="../Script/ButtonListeners/projekte.js?v2"></script>
 </body>
 </html>
