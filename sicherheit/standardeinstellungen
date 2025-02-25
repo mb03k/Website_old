@@ -10,4 +10,4 @@ Ring-Sicherheits-Modell:
 Sessions müssen folgende Attribute besitzen:
 $_SESSION['login_time']
 $_SESSION['ring']
-$_SESSION['session_timer']
+$_SESSION['session_ablauf']

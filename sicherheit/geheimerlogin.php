@@ -1,5 +1,14 @@
+<?php
+    session_start();
+
+    if (isset($_SESSION['ring']) && $_SESSION['ring'] === 0) {
+        header("Location: https://weristmatthes.de/");
+    }
+?>
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
