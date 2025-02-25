@@ -14,6 +14,7 @@
         for ($i=0; $i<count($unternehmenInfos); $i++) {
             if ($unternehmenInfos[$i]["unternehmenscode"] === $_SESSION['id']) {
                 return $unternehmenInfos[$i]["ansprechperson"];
+                break;
             }
         }
         return "";
@@ -27,5 +28,6 @@
                 break;
             }
         }
+        return "";
     }
 ?>
