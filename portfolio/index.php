@@ -1,5 +1,12 @@
 <?php
-    session_start();
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
+
+    if(!isset($_SESSION)) 
+    { 
+        session_start(); 
+    }
+
     // direkt weiterleiten falls Zugriff ermöglicht
     if (isset($_SESSION["ring"]) && $_SESSION["ring"]<=1) {
         header("Location: bewerbung/");
@@ -24,7 +31,7 @@
             <form action="welcome.php" method="POST">
                 <div class="container d-flex flex-column">
                     <div class="d-flex justify-content-center">
-                        <input type="text" name="code" class="form-control w-75" style="height: 4em;" placeholder="4A6z...">
+                        <input type="text" name="companycode" class="form-control w-75" style="height: 4em;" placeholder="4A6z...">
                     </div>
 
                     <div class="d-flex justify-content-center">
@@ -47,6 +54,6 @@
         <?php include '../html/footer.php'; ?>
     </div>
 
-    <script type="application/x-javascript" src="../Script/ButtonListeners/headerfooter.js"></script>
+    <script type="application/x-javascript" src="../Script/ButtonListeners/headerfooter.js?v2"></script>
 </body>
 </html>
