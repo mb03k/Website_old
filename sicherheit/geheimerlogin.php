@@ -2,7 +2,7 @@
     session_start();
 
     if (isset($_SESSION['ring']) && $_SESSION['ring'] === 0) {
-        header("Location: https://weristmatthes.de/");
+        header("Location: https://weristmatthes.de/#schonEingeloggt");
     }
 ?>
 
