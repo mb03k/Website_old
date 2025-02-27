@@ -26,6 +26,10 @@
                 <?php include 'p_website.php'; ?>
             </div>
 
+            <div class="d-flex justify-content-center">
+                <hr class="m-4" style="border-width: 0.5vh; width: 90%; margin:auto;">
+            </div>
+
             <div class="project_drone">
                 <?php include 'p_drone.php'; ?>
             </div>
