@@ -7,6 +7,11 @@
         session_start(); 
     }
 
+    if (!($_SESSION['ring'] === 0 || $_SESSION['ring'] === 1)) {
+        header("Location: https://weristmatthes.de/bittenicht/");
+        die("Du hast keinen Zugriff auf diese Datei!");
+    }
+
     include '../../nichthochladen.php';
 
     function getAnsprechperson() {
