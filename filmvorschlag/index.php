@@ -11,19 +11,21 @@
     <div>
     <?php include '../html/header.php'; ?>
         <div class="container">
-            <form action="processing.php" method="POST">
-                <div class="form-group mt-2">
-                    <label for="movietitle">Titel (max. 100 Zeichen)</label>
-                    <input type="text" name="movietitle" class="form-control" id="movietitle" placeholder="A Nymphoid Barbarian in Dinosaur Hell" required>
-                </div>
+            <div class="p-4 m-2 mt-4 rounded" style="background-color:#03003F;">
+                <form action="processing.php" method="POST">
+                    <div class="form-group mt-2">
+                        <label for="movietitle">Titel (max. 100 Zeichen)</label>
+                        <input type="text" name="movietitle" class="form-control" id="movietitle" placeholder="A Nymphoid Barbarian in Dinosaur Hell" required>
+                    </div>
 
-                <div class="form-group mt-4">
-                    <label for="moviedescription">Anmerkungen? (max. 500 Zeichen)</label>
-                    <textarea class="form-control" name="moviedescription" id="moviedescription" rows="3" placeholder="Sehr lieb, dass du einen Filmvorschlag geben möchtest!"></textarea>
-                </div>
+                    <div class="form-group mt-4">
+                        <label for="moviedescription">Anmerkungen? (max. 500 Zeichen)</label>
+                        <textarea class="form-control" name="moviedescription" id="moviedescription" rows="4" placeholder="Sehr lieb, dass du einen Filmvorschlag geben möchtest!"></textarea>
+                    </div>
 
-                <button type="submit" class="btn btn-primary mt-4">Senden</button>
-            </form>
+                    <button type="submit" class="btn btn-primary mt-4">Senden</button>
+                </form>
+            </div>
 
             <div class="bg-success text-center rounded mt-3" id="volunteer_success" hidden>
                 <p class="text-light">Danke für den Vorschlag - erfolgreich hochgeladen!</p>
