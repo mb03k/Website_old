@@ -79,26 +79,39 @@
             <label for="button">Gib das ein</label>
             <button class="btn btn-primary" id="button">Klick</button>
         </div>
+        <h1>8, 5, 9, 1, 3, 2, 6</h1>
 
         <div id="anf"></div>
 
         <script>
             let arr = [8,5,9,1,3,2,6];
             let warSortiert = false;
+            let for_counter = 0;
     
             console.log(arr);
     
 
             do {
-                warSortiert = false;
-                for (i=0; i<arr.length; i++) {
+                warSortiert = true;
+
+                console.log("Länge der for: "+arr.length);
+
+                for (let i=0; i<(arr.length-1); i++) {
+                    console.log("\tvergleiche: i: "+i+"["+arr[i]+"] mit j: "+(i+1)+"["+arr[i+1]+"]");
+                    gibAus();
+                    faerbeVergleiche(i);
                     if (arr[i] > arr[i+1]) {
-                        warSortiert = true;
+                        console.log("\t\tvertausche: i: "+i+"["+arr[i]+"] -- mit j: "+(i+1)+"["+arr[i+1]+"]");
+                        warSortiert = false;
                         vertausche(i, i+1);
                         gibAus();
+                        faerbeTausche(i);
+                        console.log("\t\t -- am ende i: "+i+"  mit j: "+(i+1));
                     }
                 }
-            } while (warSortiert)
+                
+                for_counter++;
+            } while (!warSortiert);
     
             function vertausche(i, j) {
                 let h = arr[i];
@@ -106,7 +119,21 @@
                 arr[j] = h;
             }
 
+            function faerbeVergleiche(i) {
+                const el1 = document.getElementById('ichbinid'+i+"_"+for_counter);
+                const el2 = document.getElementById('ichbinid'+(i+1)+"_"+for_counter);
+                el1.style.backgroundColor = "yellow";
+                el2.style.backgroundColor = "yellow";
+            }
+            function faerbeTausche(i) {
+                const el1 = document.getElementById('ichbinid'+i+"_"+for_counter);
+                const el2 = document.getElementById('ichbinid'+(i+1)+"_"+for_counter);
+                el1.style.backgroundColor = "green";
+                el2.style.backgroundColor = "green";
+            }
+
             function gibAus() {
+                console.log("gibt aus");
                 const tr = document.createElement("tr");
                 tr.classList.add("array-border");
                 tr.classList.add("fs-4");
@@ -115,6 +142,8 @@
                 for (i=0; i<arr.length; i++) { 
                     const td = document.createElement("td");
                     td.classList.add("array-td");
+                    td.setAttribute('id','ichbinid'+i+"_"+for_counter);
+                    td.innerHTML += arr[i];
                     tr.appendChild(td);
                 }
 
