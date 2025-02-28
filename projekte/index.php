@@ -1,7 +1,12 @@
+<?php
+error_reporting(E_ALL);
+include '../sicherheit/links.php';
+?>
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <?php include '../html/head.php'; ?>
+    <?php include head; ?>
     <title>Projekte</title>
     <link rel="stylesheet" href="../Style/projects.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -11,7 +16,7 @@
 
 <body class="gradient">
     <div>
-        <?php include '../html/header.php'; ?>
+        <?php include header; ?>
         
         <div class="container">
             <div class="h1 mt-3 text-center">
@@ -23,7 +28,7 @@
             </div>
 
             <div class="project_website">
-                <?php include 'p_website.php'; ?>
+                <?php include p_website; ?>
             </div>
 
             <div class="d-flex justify-content-center">
@@ -31,7 +36,7 @@
             </div>
 
             <div class="project_drone">
-                <?php include 'p_drone.php'; ?>
+                <?php include p_drone; ?>
             </div>
 
             <div class="d-flex justify-content-center">
@@ -39,7 +44,7 @@
             </div>
 
             <div class="project_binaehruhr">
-                <?php include 'p_bUhr.php'; ?>
+                <?php include p_bUhr; ?>
             </div>
 
             <div class="d-flex justify-content-center">
@@ -47,7 +52,7 @@
             </div>
 
             <div class="project_bluetooth_audio_control">
-                <?php include 'p_bt_audio.php'; ?>
+                <?php include p_bt_audio; ?>
             </div>
 
             <div class="d-flex justify-content-center">
@@ -55,7 +60,7 @@
             </div>
 
             <div class="project_chess">
-                <?php include 'p_schach.php'; ?>
+                <?php include p_schach; ?>
             </div>
 
             <div class="d-flex justify-content-center">
@@ -63,7 +68,7 @@
             </div>
 
             <div class="project_wuerfel">
-                <?php include 'p_wuerfel.php'; ?>
+                <?php include p_wuerfel; ?>
             </div>
 
             <div class="d-flex justify-content-center">
@@ -71,7 +76,7 @@
             </div>
 
             <div class="project_checkers">
-                <?php include 'p_dame.php'; ?>
+                <?php include p_dame; ?>
             </div>
 
             <div class="d-flex justify-content-center">
@@ -79,13 +84,11 @@
             </div>
 
             <div class="projekt_multimengen">
-                <?php include 'p_multimengen.php'; ?>
+                <?php include p_multimengen; ?>
             </div>
         </div>
 
-        
-        <?php include '../html/footer.php'; ?>
-
+        <?php include footer; ?>
     </div>
 
     <script type="application/x-javascript" src="../Script/ButtonListeners/headerfooter.js?v2"></script>

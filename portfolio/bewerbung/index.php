@@ -2,17 +2,20 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
+include '../../sicherheit/links.php';
+
 if(!isset($_SESSION)) 
 { 
     session_start(); 
 }
 
 // if (... || !$_SESSION['ring']<=1) funktioniert nicht (?) - also einzeln ausgeschrieben
-if (!isset($_SESSION['ring']) || !($_SESSION['ring']==1 || $_SESSION['ring']==0)) {
-    header("Location: https://weristmatthes.de/portfolio/");
+if (!isset($_SESSION['ring']) || !($_SESSION['ring']===1 || $_SESSION['ring']===0)) {
+    header("Location: ".portfolio);
 }
 
-include '../../sicherheit/sessionTimeoutCheck.php';
+include sessionTimeoutCheck;
+include './selectInfos.php';
 ?>
 
 <!DOCTYPE html>
@@ -32,10 +35,9 @@ include '../../sicherheit/sessionTimeoutCheck.php';
 
 <body class="gradient">
     <div>
-        <?php include '../../html/header.php';?>
+        <?php include header;?>
         
         <div class="container">
-            <?php include 'selectInfos.php'; ?>
 
             <p class="h1 text-center mt-4 mb-5"><?php echo getStellenname();?></p>
 
@@ -48,7 +50,7 @@ include '../../sicherheit/sessionTimeoutCheck.php';
                 <div class="row">
                     <div class="val">
                         <img class="rounded m-3" width=250px src="../../Assets/me.JPEG" style="float: right;"></img>
-                        <?php include '../../bewerbungstext.php'; ?>    
+                        <?php include bewerbungstext; ?>    
                     </div>
                 </div>
             </div>
@@ -69,9 +71,28 @@ include '../../sicherheit/sessionTimeoutCheck.php';
                     <input type="submit" value="Ausloggen"></input>
                 </form>
             </div>
+
+            <div class="mt-5">
+                Meine Bewerbungsmappe:
+
+                <div class="container w-50 d-flex justify-content-center mb-4">
+                    <div class="row text-center">
+                        <div class="col-md-auto p-2 border m-3">
+                            <a href="./pdf_download.php/?lebenslauf">
+                                <i class="bi bi-download text-dark"></i>
+                                Lebenslauf
+                            </a>
+                        </div>
+                        <div class="col-md-auto p-2 border m-3">
+                            <i class="bi bi-download text-dark"></i>
+                            <a href="./pdf_download.php/?dokumente">Weitere Unterlagen</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <?php include '../../html/footer.php'; ?>
+        <?php include footer; ?>
     </div>
 
     <script type="application/x-javascript" src="../../Script/ButtonListeners/headerfooter.js?v2"></script>
