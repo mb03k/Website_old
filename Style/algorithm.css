@@ -1,0 +1,32 @@
+.input-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.num_input {
+    width: 40px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #007bff;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-bottom: 2px solid #ff5722;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.array-td {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
