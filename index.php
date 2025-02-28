@@ -1,7 +1,14 @@
+<?php
+session_start();
+
+require 'getUserStats.php';
+include 'sicherheit/links.php';
+?>
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <?php include 'html/head.php'; ?>
+    <?php include head; ?>
     <title>Start</title>
 
     <meta name="description" content="Wer ist Matthes? Sich kurz oder lang in meiner Website verlieren und den Inhalt bewundern. Projekte, Filme, etwas über mich ansehen oder auch einen Vorschlag für einen Film geben!">
@@ -15,7 +22,7 @@
 <body class="gradient">
     <div>
         <?php 
-            include 'html/header.php'; 
+            include header; 
             include 'projekte/Service.php';
 
             $pID_1 = 6;
@@ -202,7 +209,7 @@
             </div>
         </div>
 
-        <?php include 'html/footer.php'; ?>
+        <?php include footer; ?>
     </div>
 
     <script type="application/x-javascript" src="Script/ButtonListeners/headerfooter.js?v2"></script>
