@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 
 require '../nichthochladen.php';
 
-$submittedCode = $_POST['code'];
+$submittedCode = $_POST['companycode'];
 
 if (codeIsValid()) {
     session_start();
