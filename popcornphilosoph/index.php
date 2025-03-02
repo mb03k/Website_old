@@ -1,7 +1,9 @@
+<?php include '../sicherheit/links.php'; ?>
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <?php include '../html/head.php'; ?>
+    <?php include head; ?>
     <title>Filme und Bücher</title>
     <link rel="stylesheet" href="../Style/popcornphilosoph.css">
 
@@ -13,7 +15,7 @@
 </head>
 
 <body class="gradient">
-    <?php include '../html/header.php'; ?>
+    <?php include header; ?>
     <div>
         <div class="container">
             <div class="text-center m-4 p-2 bg-danger rounded" style="--bs-bg-opacity: 0.4; border: 1px solid;">
@@ -28,7 +30,7 @@
         </div>
     </div>
 
-    <?php include '../html/footer.php'; ?>
+    <?php include footer; ?>
 
     <script type="application/x-javascript" src="../Script/ButtonListeners/headerfooter.js?v2"></script>
 </body>
