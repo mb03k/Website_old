@@ -7,7 +7,7 @@
     Aber dafür gibt es einen sehr einfachen, definitiv nicht übertriebenen Weg, es zu lösen!</p>
     <p>Und dieser Weg heißt: Blueotooth</p>
     <p>Das Projekt gestalte ich für einen Bekannten von mir. Er kann sein Handy während des Fahrens nicht 
-        nutzen, hat aber einen Schalter der bestens geeignet ist. Bei der Rechersche für eine Bluetooth
+        nutzen, hat aber einen Schalter der bestens geeignet ist. Bei der Recherche für eine Bluetooth
         Verbindung von einem Arduino bzw. einem ESP32-Chip bin ich aber wirklich erschrocken
     </p>
     <p>NIEMAND hat die selbe Frage auch nur jemals im Internet gestellt</p>
@@ -31,7 +31,7 @@
     <figure class="figure d-flex justify-content-center">
         <img src="../Assets/mikrocontroller.jpg" style="width: 450px" class="figure-img img-fluid rounded" alt="verschiedene Mikrocontroller">
     </figure>
-    <p>Links: ESP32-Mikrocontroller, Mitte & Rechts: Arduino Nano mit USB C bzw. Mikro UBS</p>
+    <p>Links: ESP32-Mikrocontroller, Mitte & Rechts: Arduino Nano mit USB C bzw. Mikro USB</p>
     <p>Nicht zu sehen ist jedoch der Held: das Mini D1 ESP-WROOM-32 - Board. Auf diesem läuft
         alles wunderbar zusammen. Diesen erkennt man in der finalen Version des Projektes:
     </p>
