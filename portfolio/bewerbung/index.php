@@ -11,7 +11,7 @@ if(!isset($_SESSION))
 
 // if (... || !$_SESSION['ring']<=1) funktioniert nicht (?) - also einzeln ausgeschrieben
 if (!isset($_SESSION['ring']) || !($_SESSION['ring']===1 || $_SESSION['ring']===0)) {
-    header("Location: ".portfolio);
+    header("Location: ../");
 }
 
 include sessionTimeoutCheck;
@@ -39,7 +39,7 @@ include './selectInfos.php';
         
         <div class="container">
 
-            <p class="h1 text-center mt-4 mb-5"><?php echo getStellenname();?></p>
+            <p class="h1 text-center mt-5 mb-5"><?php echo getStellenname();?></p>
 
             <p>
                 Sehr <?php echo getAnsprechperson(); ?>,
@@ -72,9 +72,8 @@ include './selectInfos.php';
                 </form>
             </div>
 
-            <div class="mt-5">
+            <div class="mt-5 text-center">
                 Meine Bewerbungsmappe:
-
                 <div class="container w-50 d-flex justify-content-center mb-4">
                     <div class="row text-center">
                         <div class="col-md-auto p-2 border m-3">

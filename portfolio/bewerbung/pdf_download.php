@@ -11,29 +11,27 @@ if(!isset($_SESSION))
 }
 
 if (!isset($_SESSION['ring']) || !($_SESSION['ring']===1 || $_SESSION['ring']===0)) {
-    header("Location: ../");
+    header("Location: ../../bittenicht/");
     die("Du besitzt keinen Zugriff auf diese Seite!");
 }
 
 include sessionTimeoutCheck;
 
 
-
-header("Content-Type: application/octet-stream"); 
-  
+// Einstellungen für den PDF-Download
 $file = $_SERVER['QUERY_STRING'] . ".pdf"; 
-  
+header("Content-Type: application/octet-stream"); 
 header("Content-Disposition: attachment; filename=" . urlencode($file));    
 header("Content-Type: application/download"); 
 header("Content-Description: File Transfer");             
 header("Content-Length: " . filesize($file)); 
   
-flush(); // This doesn't really matter. 
+flush();
   
 $fp = fopen($file, "r"); 
 while (!feof($fp)) { 
     echo fread($fp, 65536); 
-    flush(); // This is essential for large downloads 
+    flush();
 }  
   
 fclose($fp);

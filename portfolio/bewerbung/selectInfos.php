@@ -2,8 +2,6 @@
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
 
-    include '../../sicherheit/links.php';
-
     if(!isset($_SESSION)) 
     { 
         session_start(); 
@@ -24,7 +22,8 @@
                 break;
             }
         }
-        return "";
+        header("Location: ../");
+        die("Fehler beim Aufrufen der Daten");
     }
 
     function getStellenname() {
@@ -35,6 +34,7 @@
                 break;
             }
         }
-        return "";
+        header("Location: ../");
+        die("Fehler beim Aufrufen der Daten");
     }
 ?>
