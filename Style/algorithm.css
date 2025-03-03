@@ -1,17 +1,18 @@
 .input-container {
     display: flex;
-    gap: 10px;
+    gap: 4px;
     justify-content: center;
-    margin-top: 50px;
 }
 
 .num_input {
-    width: 40px;
+    max-width: 50px;
+    min-width: 20px;
+    font-size: clamp(17px, 2vw, 20px);
+
     text-align: center;
-    font-size: 18px;
     border: none;
-    border-bottom: 2px solid #007bff;
     outline: none;
+    border-bottom: 2px solid #007bff;
     transition: border-color 0.3s;
 }
 
