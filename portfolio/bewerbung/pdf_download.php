@@ -17,15 +17,28 @@ if (!isset($_SESSION['ring']) || !($_SESSION['ring']===1 || $_SESSION['ring']===
 
 include sessionTimeoutCheck;
 
+$basePath = "/var/www/";
+$fileName = basename($_SERVER['QUERY_STRING']) . ".pdf";
+$file = $basePath . $fileName;
+
+if ($fileName === "dokumente.pdf") { // Dokumente ausgewaehlt
+    $filename = "mb_dokumente.pdf";
+} else { // Lebenslauf ausgewaehlt
+    $fileName = "mb_lebenslauf.pdf";
+}
+
+// Prüfen, ob die Datei existiert, bevor sie gesendet wird!
+if (!file_exists($file)) {
+    die("Datei nicht gefunden!");
+}
+
 
 // Einstellungen für den PDF-Download
-$file = $_SERVER['QUERY_STRING'] . ".pdf"; 
 header("Content-Type: application/octet-stream"); 
-header("Content-Disposition: attachment; filename=" . urlencode($file));    
-header("Content-Type: application/download"); 
-header("Content-Description: File Transfer");             
-header("Content-Length: " . filesize($file)); 
-  
+header("Content-Disposition: attachment; filename=" . urlencode($fileName));
+header("Content-Description: File Transfer");
+header("Content-Length: " . filesize($file));
+
 flush();
   
 $fp = fopen($file, "r"); 
