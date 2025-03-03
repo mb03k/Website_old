@@ -1,7 +1,7 @@
 
 // Header
 addWebsiteLink(document.getElementsByClassName('home_link'), "");
-addWebsiteLink(document.getElementsByClassName('portfolio_link'), "portfolio");
+addWebsiteLink(document.getElementsByClassName('portfolio_link'), "portfolio/");
 addWebsiteLinkNewURL(document.getElementsByClassName('github_link'), "https://www.github.com/mb03k");
 addWebsiteLinkNewURL(document.getElementsByClassName('chess_link'), "https://www.chess.com/member/mb03k");
 

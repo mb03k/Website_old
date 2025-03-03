@@ -1,5 +1,5 @@
 
-addWebsiteLink(document.getElementsByClassName('logout_link'), "sicherheit/logout.php");
+addWebsiteLink(document.getElementsByClassName('logout_link'), "./sicherheit/logout.php");
 addWebsiteLinkNewURL(document.getElementsByClassName('projects_link'), "https://weristmatthes.de/projekte");
 
 function addWebsiteLink(buttons, name) {
