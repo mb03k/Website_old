@@ -11,7 +11,7 @@
 
     // direkt weiterleiten falls Zugriff ermöglicht
     if (isset($_SESSION["ring"]) && $_SESSION["ring"]<=1) {
-        header("Location: ".bewerbung);
+        header("Location: https://weristmatthes.de/portfolio/");
     }
 ?>
 

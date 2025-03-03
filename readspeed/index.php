@@ -5,7 +5,7 @@ include '../sicherheit/links.php';
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <?php include header; ?>
+    <?php include head; ?>
     <title>Readspeed</title>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <meta name="description" content="Ein kleines Projekt, Text mit dicken Buchstaben zu unterstützen, um schneller lesen zu können">
@@ -16,7 +16,7 @@ include '../sicherheit/links.php';
     <div>
         <?php include header; ?>
 
-        <div class="container">
+        <div class="container mt-4">
             <h2 class="text-light" style='margin-top:10px; line-height:0.95em; font-size: 4em; font-family: "Bebas Neue", sans-serif; font-weight: 400; font-style: normal;'>
                 Texte schneller lesen können... aber wie?!
             </h2>
