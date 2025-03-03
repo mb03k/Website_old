@@ -7,6 +7,11 @@
         session_start(); 
     }
 
+    if (!isset($_SESSION['ring'])) {
+        header("Location: ../../bittenicht/");
+        die("Du hast keinen Zugriff auf diese Datei!");
+    }
+
     if (!($_SESSION['ring'] === 0 || $_SESSION['ring'] === 1)) {
         header("Location: ../../bittenicht/");
         die("Du hast keinen Zugriff auf diese Datei!");
