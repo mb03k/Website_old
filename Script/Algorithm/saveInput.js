@@ -49,15 +49,6 @@ function writeArrayValuesInDOM() {
     }
 }
 
-function jumpToNext(input) {
-    if (input.value.length > 0) {
-        let next = input.nextElementSibling;
-        if (next && next.tagName === "INPUT") {
-            next.focus(); // Springe zum nächsten Feld
-        }
-    }
-}
-
 function removeOldSolutions() {
     alg_schritte
     const e  = document.getElementById('alg_schritte');
