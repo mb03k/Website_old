@@ -1,7 +1,10 @@
+<?php include '../sicherheit/links.php'; ?>
+
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <?php include '../html/head.php'; ?>
+    <?php include head; ?>
     <title>Ich bin gespannt!</title>
     <link rel="stylesheet" href="../Style/colorpalette.css">
     <meta name="description" content="Schick mir gerne ein oder mehrere Filmvorschläge!">
@@ -9,7 +12,7 @@
 </head>
 <body class="gradient">
     <div>
-    <?php include '../html/header.php'; ?>
+    <?php include header; ?>
         <div class="container">
             <div class="p-4 m-2 mt-4 rounded" style="background-color:#03003F;">
                 <form action="processing.php" method="POST">
@@ -50,7 +53,7 @@
             }
         </script>
 
-        <?php include '../html/footer.php'; ?>
+        <?php include footer; ?>
     </div>
     <script type="application/x-javascript" src="../Script/ButtonListeners/headerfooter.js"></script>
     <script type="application/x-javascript" src="../Script/ButtonListeners/filmvorschlag.js"></script>
