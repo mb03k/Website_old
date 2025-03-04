@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-require 'getUserStats.php';
+//require 'getUserStats.php';
 include 'sicherheit/links.php';
 ?>
 
@@ -142,11 +142,12 @@ include 'sicherheit/links.php';
             </p>
             <div class="mb-4" style="display: flex; justify-content: center;">
                 <div class="list-group w-75">
-                    <button type="button" class="list-group-item list-group-item-action available_sites aboutme_link" id="aboutme_link">Über mich</button>
-                    <button type="button" class="list-group-item list-group-item-action available_sites movies_link" id="popcornphilosoph_link">Filme / Bücher</button>
-                    <button type="button" class="list-group-item list-group-item-action available_sites readspeed_link" id="readspeed_link">Lesegeschwindigkeit</button>
-                    <button type="button" class="list-group-item list-group-item-action available_sites projects_link" id="projekte_link">Projekte</button>
-                    <button type="button" class="list-group-item list-group-item-action available_sites faq_link" id="faq_link">FAQ</button>
+                    <button type="button" class="list-group-item list-group-item-action available_sites aboutme_link" id="first_link">Über mich</button>
+                    <button type="button" class="list-group-item list-group-item-action available_sites movies_link" id="second_link">Filme / Bücher</button>
+                    <button type="button" class="list-group-item list-group-item-action available_sites readspeed_link" id="third_link">Lesegeschwindigkeit</button>
+                    <button type="button" class="list-group-item list-group-item-action available_sites projects_link" id="fourth_link">Projekte</button>
+                    <!--<button type="button" class="list-group-item list-group-item-action available_sites faq_link" id="faq_link">FAQ</button>-->
+                    <button type="button" class="list-group-item list-group-item-action available_sites algorithm_link" id="fifth_link">Algorithmen</button>
                 </div>
             </div>
         </div>
@@ -192,7 +193,7 @@ include 'sicherheit/links.php';
                     <input class="btn btn-light movieproposal_link" type="submit" value="yes yes yes" id="movievolunteer">
                 </p>
                 
-                <p class=" mb-0 mt-4"><small>
+                <!--<p class=" mb-0 mt-4"><small>
                 &#8321 über dich werden keine Daten gespeichert. Nur deine eigenen Eingaben!
                 </small></p>
 
@@ -205,7 +206,7 @@ include 'sicherheit/links.php';
                     wird im privaten Bereich des Apache-Webservers gespeichert. Niemand außerhalb des Servers (wie du)
                     hast Zugriff auf diese Daten. Das speichern regelt PHP (Backend-Programmiersprache), auf welche
                     Nutzer ebenso keinen Zugriff haben
-                </small></p>
+                </small></p>-->
             </div>
         </div>
 
@@ -213,7 +214,7 @@ include 'sicherheit/links.php';
     </div>
 
     <script type="application/x-javascript" src="Script/ButtonListeners/headerfooter.js?v2"></script>
-    <script type="application/x-javascript" src="Script/ButtonListeners/home.js?v2"></script>
+    <script type="application/x-javascript" src="Script/ButtonListeners/home.js?v2.1"></script>
 </body>
 
 </html>
