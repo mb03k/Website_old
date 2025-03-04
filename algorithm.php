@@ -45,22 +45,35 @@
         Binäre Suche
 
         <div class="img">
-            <img src="./bubblesort.png" width=500px height=auto>
+            <img src="./bubblesort.png" width=350px height=auto>
         </div>
         
         <div class="container d-flex justify-content-center text-center mt-5">
             <div class="row">
-                <div class="input-container border border-danger p-3 rounded">
-                    <input type="number" id="inp_0" class="num_input" oninput="jumpToNext(this)" />
-                    <input type="number" id="inp_1" class="num_input" oninput="jumpToNext(this)" />
-                    <input type="number" id="inp_2" class="num_input" oninput="jumpToNext(this)" />
-                    <input type="number" id="inp_3" class="num_input" oninput="jumpToNext(this)" />
-                    <input type="number" id="inp_4" class="num_input" oninput="jumpToNext(this)" />
-                    <input type="number" id="inp_5" class="num_input" oninput="jumpToNext(this)" />
-                    <input type="number" id="inp_6" class="num_input" oninput="jumpToNext(this)" />
-                    <input type="number" id="inp_7" class="num_input" oninput="jumpToNext(this)" />
-                    <input type="number" id="inp_8" class="num_input" oninput="jumpToNext(this)" />
-                    <input type="number" id="inp_9" class="num_input" oninput="jumpToNext(this)" />
+                <div class="row input-container border border-danger p-3 rounded">
+                    <input type="number" id="inp_0" class="num_input col col-sm" oninput="jumpToNextInputField(this)" />
+                    <input type="number" id="inp_1" class="num_input col col-sm" oninput="jumpToNextInputField(this)" />
+                    <input type="number" id="inp_2" class="num_input col col-sm" oninput="jumpToNextInputField(this)" />
+                    <input type="number" id="inp_3" class="num_input col col-sm" oninput="jumpToNextInputField(this)" />
+                    <input type="number" id="inp_4" class="num_input col col-sm" oninput="jumpToNextInputField(this)" />
+                    <input type="number" id="inp_5" class="num_input col col-sm" oninput="jumpToNextInputField(this)" />
+                    <input type="number" id="inp_6" class="num_input col col-sm" oninput="jumpToNextInputField(this)" />
+                    <input type="number" id="inp_7" class="num_input col col-sm" oninput="jumpToNextInputField(this)" />
+                    <input type="number" id="inp_8" class="num_input col col-sm" oninput="jumpToNextInputField(this)" />
+                    <input type="number" id="inp_9" class="num_input col col-sm" oninput="jumpToNextInputField(this)" />
+
+                    <div class="row input-container border border-danger p-3 rounded">
+                        <input type="number" id="inp_0" class="num_input col"/>
+                        <input type="number" id="inp_1" class="num_input col"/>
+                        <input type="number" id="inp_2" class="num_input col"/>
+                        <input type="number" id="inp_3" class="num_input col"/>
+                        <input type="number" id="inp_4" class="num_input col"/>
+                        <input type="number" id="inp_5" class="num_input col"/>
+                        <input type="number" id="inp_6" class="num_input col"/>
+                        <input type="number" id="inp_7" class="num_input col"/>
+                        <input type="number" id="inp_8" class="num_input col"/>
+                        <input type="number" id="inp_9" class="num_input col"/>
+                    </div>
                 </div>
                 <div>
                     <label for="submit_arr_btn">Ich möchte die Sortierung</label>
@@ -69,20 +82,20 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="container">
             <table class="">
                 <tr class="array-border array-value-placeholder fs-4 text-center">
-                    <td class="array-td" id="array-td-0"></td>
-                    <td class="array-td" id="array-td-1"></td>
-                    <td class="array-td" id="array-td-2"></td>
-                    <td class="array-td" id="array-td-3"></td>
-                    <td class="array-td" id="array-td-4"></td>
-                    <td class="array-td" id="array-td-5"></td>
-                    <td class="array-td" id="array-td-6"></td>
-                    <td class="array-td" id="array-td-7"></td>
-                    <td class="array-td" id="array-td-8"></td>
-                    <td class="array-td" id="array-td-9"></td>
+                    <td class="array-td oldMainArr" id="array-td-0"></td>
+                    <td class="array-td oldMainArr" id="array-td-1"></td>
+                    <td class="array-td oldMainArr" id="array-td-2"></td>
+                    <td class="array-td oldMainArr" id="array-td-3"></td>
+                    <td class="array-td oldMainArr" id="array-td-4"></td>
+                    <td class="array-td oldMainArr" id="array-td-5"></td>
+                    <td class="array-td oldMainArr" id="array-td-6"></td>
+                    <td class="array-td oldMainArr" id="array-td-7"></td>
+                    <td class="array-td oldMainArr" id="array-td-8"></td>
+                    <td class="array-td oldMainArr" id="array-td-9"></td>
                 </tr>
                 <tr class="text-center text-small">
                     <td id="array-tl-0">A</td>
@@ -112,6 +125,8 @@
     <?php include footer; ?>
         <script type="application/x-javascript" src="Script/Algorithm/saveInput.js"></script>
         <script type="application/x-javascript" src="Script/Algorithm/BubbleSort.js"></script>
+        <script type="application/x-javascript" src="Script/Algorithm/inputForm.js"></script>
+        <script type="application/x-javascript" src="Script/Algorithm/zeichnen.js"></script>
         <script type="application/x-javascript" src="Script/ButtonListeners/headerfooter.js"></script>
 </body>
 </html>
