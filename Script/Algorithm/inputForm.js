@@ -1,27 +1,23 @@
 
 const input = document.querySelectorAll(".num_input");
 
-input.forEach(input => {
+input.forEach(input => { // Tastatur-Listener
     input.addEventListener("keydown", (event) => {
         if (event.key === "Backspace") { 
             jumpToPreviousInputField(input);
         }
-        jumpToNextInputField(input);
+        else if (typeof event.key === 'number') { // was brauche ich um eine Eingabe herauszufinden?
+            jumpToNextInputField(input);
+        }
+            
     });
 });
-
 
 function jumpToNextInputField(input) {
     if (input.value.length > 0) {
         let next = input.nextElementSibling;
         if (next && next.tagName === "INPUT") {
             next.focus();
-        }
-        if (next) {
-            console.log("next: "+next);
-        }
-        if (next.tagName === "INPUT") {
-            console.log("tagName: "+next.tagName);
         }
     }
 }
