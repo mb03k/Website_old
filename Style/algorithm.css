@@ -7,7 +7,7 @@
 .num_input {
     max-width: 50px;
     min-width: 20px;
-    font-size: clamp(17px, 2vw, 20px);
+    font-size: clamp(15px, 2vw, 20px);
 
     text-align: center;
     border: none;
